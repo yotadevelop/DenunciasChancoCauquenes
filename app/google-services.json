@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "359697261713",
+    "firebase_url": "https://denunciaschancocauquenes-6a433-default-rtdb.firebaseio.com",
+    "project_id": "denunciaschancocauquenes-6a433",
+    "storage_bucket": "denunciaschancocauquenes-6a433.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359697261713:android:f0712160e7f7d3018b4b30",
+        "android_client_info": {
+          "package_name": "com.example.denunciaschancocauquenes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359697261713-96j9ssi7s6p0qspp6tva16mu5n4s7m03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADReMGClPEBj3k2qH69Z7Lx5KJ5JXo5p4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359697261713-96j9ssi7s6p0qspp6tva16mu5n4s7m03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

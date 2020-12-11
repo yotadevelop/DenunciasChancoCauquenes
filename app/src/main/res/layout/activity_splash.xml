@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/fondo"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:text="Denuncias Chanco-Cauquenes"
+        android:fontFamily="@font/ranchers"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="7dp"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/portafolio"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Creado por los Analistas Programadores de INACAP:"
+        android:textStyle="bold"
+        android:textColor="#EA0808"
+        android:fontFamily="@font/dosis"
+        android:textSize="25dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_card_animation"
+            android:text="-Felipe Eduardo Urra Cortéz"
+            android:textStyle="italic"
+            android:textSize="25dp"
+            android:layout_marginBottom="30dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_card_animation"
+            android:text="-Jonathan Esteban Valenzuela Ortega"
+            android:textStyle="italic"
+            android:textSize="24dp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Por el bien de la Comunidad"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="@font/dosis"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="¡¡Por el bien de todos!!"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="@font/dosis"
+        android:textColor="#129C02"
+        android:textSize="30dp"
+        />
+</LinearLayout>

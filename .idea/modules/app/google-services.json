@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "398066139896",
+    "project_id": "denunciaschancocauquenes-1a9eb",
+    "storage_bucket": "denunciaschancocauquenes-1a9eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398066139896:android:abd37ce6e64a5e4de7310d",
+        "android_client_info": {
+          "package_name": "com.example.denunciaschancocauquenes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398066139896-7t6unolj01r160atqgdsrnk0jrplb92k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.denunciaschancocauquenes",
+            "certificate_hash": "32970dfa49296640229c243509fa7f78e155de8e"
+          }
+        },
+        {
+          "client_id": "398066139896-pgk9a3783q69s5u6mvuig65pc1eferoq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ-cewOPbpdvs_Z6puA6vlMhSYPLY22sU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398066139896-pgk9a3783q69s5u6mvuig65pc1eferoq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

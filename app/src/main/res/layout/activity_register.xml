@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/fondo"
+    android:padding="30dp"
+    >
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="?attr/homeAsUpIndicator"
+        android:onClick="volverAlLogin"
+        />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/portafolio"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¡Registrate!"
+        android:fontFamily="@font/ranchers"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/register_txt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo"
+        android:fontFamily="@font/dosis"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/register_txt_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:fontFamily="@font/dosis"
+        android:inputType="text"
+        android:padding="8dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/register_txt_numero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Celular"
+        android:fontFamily="@font/dosis"
+        android:padding="8dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/register_txt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:fontFamily="@font/dosis"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:layout_marginBottom="15dp"
+        />
+
+    <Button
+        android:background="@drawable/btn_radius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear Cuenta"
+        android:fontFamily="@font/varela"
+        android:onClick="crearCuenta"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:padding="8dp"
+        />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Ya tienes Cuenta?"
+        android:fontFamily="@font/dosis"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Iniciar sesion"
+        android:fontFamily="@font/dosis"
+        android:textSize="16dp"
+        android:textColor="#F44336"
+        android:onClick="volverAlLogin"
+        />
+
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.NuevaDenunciaFragment"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    android:padding="25dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Realiza la Denuncia"
+        android:fontFamily="@font/ranchers"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:background="@drawable/selector_card_animation"
+        android:layout_marginBottom="30dp"
+        />
+
+    <EditText
+        android:id="@+id/nuevo_input_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Titulo"
+        android:fontFamily="@font/dosis"
+        android:padding="8dp"
+        android:layout_marginBottom="15dp"
+        />
+
+    <EditText
+        android:id="@+id/nuevo_input_direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Direccion"
+        android:fontFamily="@font/dosis"
+        android:padding="8dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:id="@+id/nuevo_bt_crearDenuncia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Denunciar"
+        android:fontFamily="@font/varela"
+        android:background="@drawable/btn_radius"
+        android:textColor="#fff"
+        android:padding="15dp"
+        android:textSize="25dp"
+        />
+
+</LinearLayout>

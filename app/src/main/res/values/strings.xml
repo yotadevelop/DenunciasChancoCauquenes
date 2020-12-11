@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DenunciasChancoCauquenes</string>
+    <string name="tab_text_1">Mis Denuncias</string>
+    <string name="tab_text_2">Denunciar</string>
+    <string name="tab_text_3">Todas las denuncias</string>
+    <string name="facebook_app_id">390451128953859</string>
+    <string name="fb_login_protocol_scheme">fb390451128953859</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>
